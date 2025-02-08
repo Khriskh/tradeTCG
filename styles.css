@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.top {
+  width: 100%;
+  height: 60px;
+  background-color: #3F51B5;
+  position: absolute;
+  top: 0;
+}
+
+.middle {
+  width: 100%;
+  height: calc(100vh - 90px); /* Ajusta la altura para ocupar el espacio entre top y bottom */
+  background-color: white;
+  position: absolute;
+  top: 60px; /* Comienza debajo del div top */
+  bottom: 30px; /* Termina encima del div bottom */
+}
+
+.bottom {
+  width: 100%;
+  height: 30px;
+  background-color: #3F51B5;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#login_ {
+  padding: 12px 10px;
+}
+
+.loginSpace {
+  width: 200px;
+  float: left;
+  padding: 0 2px 0 2px;
+}
+
+.widthComboBox {
+  width: 350px !important;
+}
+
+#listCardSearch, #listCardSwap, #listCardFilter
+{
+  width: calc(100%);
+  float: left;
+  height: calc(100% - 70px);
+  margin-top: 10px;
+  overflow-y: auto;
+}
+
+.card {
+  width: 215px;
+  height: 300px;
+  margin: 5px;
+  border-radius: 5px;
+  float: left;
+}
+
+.trade {
+  width: 100%;
+  height: 310px;
+}
+
+.cardTrade {
+  width: 215px;
+  height: 300px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.nameTrade {
+  border: 1px solid #3F51B5;
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+
+.iconTrade {
+  width: 150px;
+  height: 300px;
+  margin: 5px;
+  background-image: url(trade.png);
+  background-size: 100px 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contentCard {
+  width: 215px;
+  height: 325px;
+  margin: 5px;
+  border-radius: 5px;
+  float: left;
+}
+
+#tabstrip {
+  height: 100%;
+}
+
+.k-tabstrip-content,.k-tabstrip>.k-content {
+  padding-block: 5px !important;
+  padding-inline: 5px !important;
+}
+
+#welcome {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+#welcome #name {
+  padding: 0 10px;
+  color: white;
+}
+#welcome #logout {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.deleteCard {
+  cursor: pointer;
+  float: left;
+}
+
+.listCardTrade
+{
+	border-collapse:collapse;
+  margin-top: 10px;
+}
+.listCardTrade tr
+{
+  margin-bottom: 5px;;
+}
+.listCardTrade tr td
+{
+	border:0px solid #000000;
+}

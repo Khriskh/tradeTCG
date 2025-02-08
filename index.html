@@ -1,1 +1,67 @@
-TradeTCG
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeCard</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <link href="styles/material-main.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/kendo.ui.core.min.js"></script>
+    <script src="js/scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="top">
+        <div id="login_">
+            <form id="loginForm">
+
+                <div class="loginSpace">
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="loginSpace">
+                    <input type="text" id="idFriend" name="password" required>
+                </div>
+                <div class="loginSpace">
+                    <button type="submit" id="login">Login or Create</button>
+                </div>
+            </form>
+        </div>
+        <div id="welcome">
+            <div id="name"></div>
+            <div id="logout"><button type="submit" id="logout_">logout</button></div>
+        </div>
+    </div>
+
+    <div class="middle">
+        <div id="tabstrip">
+            <ul>
+                <li class="k-active">Search</li>
+                <li>Swap</li>
+                <li>Filter</li>
+                <li>Message</li>
+            </ul>
+            <div>
+                <div id="toolbarSearch"></div>
+                <div id="listCardSearch"></div>
+            </div>
+            <div>
+                <div id="toolbarSwap"></div>
+                <div id="listCardSwap"></div>
+            </div>
+            <div>
+                <div id="toolbarFilter"></div>
+                <div id="listCardFilter"></div>
+            </div>
+            <div>
+                <div id="toolbarMessage"></div>
+                <div id="listCardMessage"></div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">by Christian 2025</div>
+</body>
+</html>
