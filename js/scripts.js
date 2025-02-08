@@ -1,6 +1,6 @@
 $(document).ready(function() {
     URL = 'https://itechs.ngrok.io/tcgpocket';
-    //login
+    
     if(localStorage.getItem('uuid') == "undefined" || localStorage.getItem('name') == "undefined"){
         localStorage.removeItem('uuid');
         localStorage.removeItem('name');
