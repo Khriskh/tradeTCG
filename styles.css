@@ -40,13 +40,13 @@ body {
 }
 
 .loginSpace {
-  width: 200px;
+  width: 110px;
   float: left;
   padding: 0 2px 0 2px;
 }
 
 .widthComboBox {
-  width: 350px !important;
+  width: 230px !important;
 }
 
 #listCardSearch, #listCardSwap, #listCardFilter

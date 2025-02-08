@@ -81,7 +81,7 @@ $(document).ready(function() {
         size: "small",
     });
     $("#idFriend").kendoTextBox({
-        placeholder: "ID Friend",
+        placeholder: "ID",
         size: "small",
     });
 
