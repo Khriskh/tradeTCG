@@ -59,8 +59,8 @@ body {
 }
 
 .card {
-  width: 215px;
-  height: 300px;
+  width: 185px;
+  height: 258px;
   margin: 5px;
   border-radius: 5px;
   float: left;
@@ -72,8 +72,8 @@ body {
 }
 
 .cardTrade {
-  width: 215px;
-  height: 300px;
+  width: 185px;
+  height: 258px;
   margin: 5px;
   border-radius: 5px;
 }
@@ -85,18 +85,18 @@ body {
 }
 
 .iconTrade {
-  width: 150px;
-  height: 300px;
+  width: 80px;
+  height: 258px;
   margin: 5px;
   background-image: url(trade.png);
-  background-size: 100px 100px;
+  background-size: 50px 50px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .contentCard {
-  width: 215px;
-  height: 325px;
+  width: 185px;
+  height: 283px;
   margin: 5px;
   border-radius: 5px;
   float: left;
